@@ -22,6 +22,4 @@ app.use(cors());
 app.use(express.json());
 app.use(routes);
 
-server.listen(3000, () => {
-    console.log('servidor rondando...');
-});
+server.listen(3000);
